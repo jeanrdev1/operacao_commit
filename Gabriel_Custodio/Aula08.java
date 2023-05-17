@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+
 public class Aula08 {
     public static void main(String[] args) throws Exception {
         System.out.println("Vamos em frente!");
@@ -6,8 +8,11 @@ public class Aula08 {
         System.out.println("Adicionar novaMudanca");
         System.out.println("Operacao Commit");
 
+        System.out.println("\n Muito bom, Ten Custódio");
+
     }
 }
+
 
 //importante saber... o git não sobe pastas vazias
 //O terminal da pasta a ser salva deve estar selecionado no cd -> cd "F:\HTML SITES\0 CURSO SENAI\Aula08\Aula08"
