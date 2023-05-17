@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Valdemar no Hello, World!");
+        System.out.println("\nValdemar no Hello, World!");
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite um texto para remoção de acentos: ");
