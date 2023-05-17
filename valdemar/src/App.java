@@ -15,3 +15,11 @@ public class App {
     System.out.println("Resultado: "+ txt.textofinal);
     }
 }
+
+//  para aceitação de acentos no terminal VSCode .. 
+//  Ctrl+shift+p 
+//  digite:  setting.json   
+//  tecle enter para adicionar as linhas abaixo no arquivo copiando e colando
+// "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+// "terminal.integrated.shellArgs.windows": "/k chcp 1252",
+
