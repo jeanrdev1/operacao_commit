@@ -39,7 +39,8 @@ public class Aula08 {
 // git pull origin nome_da_branch -> para fazer um pull em branch não sincronizada
 
 //+++++++++++ QUANDO TRABALHAR COM RESPOSITÓRIO REMOTO COMPARTILHADO, SEMPRE ANTES DE UM PUSH, FAÇA UM PULL E CERTIFIQUE-SE DE ESTAR NA BRANCH DSEJADA
-//para isso use os comandos branch e checkout para selecionar a BRANCH DESEJADA, para fazer o pull origin nome_da_branch e push origin nome_da_branch. 
+// para isso use os comandos branch e checkout para selecionar a BRANCH DESEJADA, para fazer o pull origin nome_da_branch e push origin nome_da_branch. 
+// para fazer pull ou push direto, após dar o checkout na branch desejada, pode ser feito 
 
 
 
