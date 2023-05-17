@@ -4,7 +4,8 @@ public class Aula08 {
         System.out.println("Adicionar GitHub");
         System.out.println("Adicionar newVersion");
         System.out.println("Adicionar novaMudanca");
-       
+        System.out.println("Operacao Commit");
+
     }
 }
 
@@ -111,3 +112,7 @@ repositório remoto no seu computador. */
 // git push
 
 // Lembre-se de que, ao fazer isso, você não está copiando todo o histórico do repositório remoto, mas apenas o estado atual da filial especificada. Se você precisar de todo o histórico do repositório remoto, é recomendável fazer um clone completo usando git clone
+
+// git push --force origin operacao_commit -> Isso forçará o push do seu ramo local e substituirá o histórico remoto. Certifique-se de que está ciente das consequências antes de usar essa opção.
+
+
