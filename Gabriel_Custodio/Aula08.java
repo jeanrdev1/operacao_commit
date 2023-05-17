@@ -1,4 +1,3 @@
-import javax.sound.midi.Soundbank;
 
 public class Aula08 {
     public static void main(String[] args) throws Exception {
@@ -8,19 +7,11 @@ public class Aula08 {
         System.out.println("Adicionar novaMudanca");
         System.out.println("Operacao_Commit");
         System.out.println("alterar entre Branch");
-<<<<<<< HEAD
-=======
-        System.out.println("\n Muito bom, Ten Custódio");
-        System.out.println("Tks, tentando entender como manda uma versão de um branch");
-
-
->>>>>>> main
-        System.out.println("\n Muito bom, Ten Custódio");
         System.out.println("Tks, tentando entender como manda uma versão de um branch para outro");
 
 
-    }
-}
+    };
+};
 
 
 //importante saber... o git não sobe pastas vazias
@@ -56,13 +47,8 @@ public class Aula08 {
 // para isso use os comandos branch e checkout para selecionar a BRANCH DESEJADA, para fazer o pull origin nome_da_branch e push origin nome_da_branch. 
 // para fazer pull ou push direto, após dar o checkout na branch desejada, pode ser feito. 
 // exemplo: git branch --set-upstream-to=origin/operacao_commit operacao_commit ou git branch --set-upstream-to=origin/main main
-<<<<<<< HEAD
-// git merge faz a mesclagem da classe branch atual com a desejada
-=======
 // git merge faz a mesclagem da classe branch atual com a desejada e o git rebase é mais complexo e reescreve os commits... 
 
-
->>>>>>> main
 
 //+++++++++++++++COMANDOS ÚTEIS+++++++++++++++
 // git branch "nome_do_branch" -> cria uma nova ramificação sem excluir ou renomear as anteriores
