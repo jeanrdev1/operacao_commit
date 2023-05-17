@@ -6,7 +6,7 @@ public class App {
         System.out.println("Valdemar no Hello, World!");
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Digite o texto: ");
+        System.out.print("Digite um texto para remoção de acentos: ");
         String texto = sc.nextLine(); 
     
     sc.close();
