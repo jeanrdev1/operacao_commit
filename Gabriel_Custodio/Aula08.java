@@ -4,7 +4,8 @@ public class Aula08 {
         System.out.println("Adicionar GitHub");
         System.out.println("Adicionar newVersion");
         System.out.println("Adicionar novaMudanca");
-       
+        System.out.println("Opr Commit");
+
     }
 }
 
