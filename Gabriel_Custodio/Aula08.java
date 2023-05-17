@@ -8,9 +8,9 @@ public class Aula08 {
         System.out.println("Adicionar novaMudanca");
         System.out.println("Operacao_Commit");
         System.out.println("alterar entre Branch");
-
-
         System.out.println("\n Muito bom, Ten Custódio");
+        System.out.println("Tks, tentando entender como manda uma versão de um branch para outro");
+
 
     }
 }
