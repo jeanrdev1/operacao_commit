@@ -41,7 +41,7 @@ public class Aula08 {
 //+++++++++++ QUANDO TRABALHAR COM RESPOSITÓRIO REMOTO COMPARTILHADO, SEMPRE ANTES DE UM PUSH, FAÇA UM PULL E CERTIFIQUE-SE DE ESTAR NA BRANCH DSEJADA
 // para isso use os comandos branch e checkout para selecionar a BRANCH DESEJADA, para fazer o pull origin nome_da_branch e push origin nome_da_branch. 
 // para fazer pull ou push direto, após dar o checkout na branch desejada, pode ser feito 
-
+// exemplo: git branch --set-upstream-to=origin/operacao_commit operacao_commit
 
 
 //+++++++++++++++COMANDOS ÚTEIS+++++++++++++++
