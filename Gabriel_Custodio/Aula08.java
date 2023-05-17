@@ -1,13 +1,20 @@
+import javax.sound.midi.Soundbank;
+
 public class Aula08 {
     public static void main(String[] args) throws Exception {
         System.out.println("Vamos em frente!");
         System.out.println("Adicionar GitHub");
         System.out.println("Adicionar newVersion");
         System.out.println("Adicionar novaMudanca");
-        System.out.println("Operacao Commit");
+        System.out.println("Operacao_Commit");
+        System.out.println("alterar entre Branch");
+        System.out.println("\n Muito bom, Ten Custódio");
+        System.out.println("Tks, tentando entender como manda uma versão de um branch");
+
 
     }
 }
+
 
 //importante saber... o git não sobe pastas vazias
 //O terminal da pasta a ser salva deve estar selecionado no cd -> cd "F:\HTML SITES\0 CURSO SENAI\Aula08\Aula08"
@@ -39,10 +46,10 @@ public class Aula08 {
 // git pull origin nome_da_branch -> para fazer um pull em branch não sincronizada
 
 //+++++++++++ QUANDO TRABALHAR COM RESPOSITÓRIO REMOTO COMPARTILHADO, SEMPRE ANTES DE UM PUSH, FAÇA UM PULL E CERTIFIQUE-SE DE ESTAR NA BRANCH DSEJADA
-//para isso use os comandos branch e checkout para selecionar a BRANCH DESEJADA, para fazer o pull e push. Faça um --set-upstream origin nome_da_branch_desejada
-
-
-
+// para isso use os comandos branch e checkout para selecionar a BRANCH DESEJADA, para fazer o pull origin nome_da_branch e push origin nome_da_branch. 
+// para fazer pull ou push direto, após dar o checkout na branch desejada, pode ser feito. 
+// exemplo: git branch --set-upstream-to=origin/operacao_commit operacao_commit ou git branch --set-upstream-to=origin/main main
+// git merge faz a mesclagem da classe branch atual com a desejada
 
 //+++++++++++++++COMANDOS ÚTEIS+++++++++++++++
 // git branch "nome_do_branch" -> cria uma nova ramificação sem excluir ou renomear as anteriores
