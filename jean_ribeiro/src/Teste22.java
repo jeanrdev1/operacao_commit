@@ -2,9 +2,11 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World -------- 165 A DE GLORIA!");
         String nome = "Stive";
+
         String cor = "Preta";
+
         float peso = 27;
-        //boolean bravo = false;
+        boolean bravo = false;
         String raca = "Vira Lata";
         String cachorro = nome;
     System.out.println("Seu Cachorro De Cor \n" + cor + " " + peso + "Kg\n" + raca);
