@@ -13,6 +13,9 @@ public class App {
         System.out.println("Peso: " + peso);
         System.out.println("Casado: " + casado);
         System.out.println("-----------------");
+        System.out.println();
+        System.out.println("")
+        ;
        }
 }
 
